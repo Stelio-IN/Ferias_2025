@@ -1,0 +1,9 @@
+{
+    "welcome": "Welcome",
+    "description": "This is an example in English.",
+    "greeting": "Hello, how are you?",
+    "farewell": "Goodbye! Have a nice day.",
+    "chooseLanguage": "Choose your language:",
+    "currentLanguage": "The current language is English."
+  }
+  
