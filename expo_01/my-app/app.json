@@ -20,7 +20,8 @@
         "googleMaps": {
           "apiKey": "AIzaSyCEU5A00pSATg_YSfNCLDeoxFx85eIOg5o"
         }
-      }
+      },
+      "package": "Motopy.apk"
     },
     "web": {
       "bundler": "metro",
@@ -41,6 +42,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e9e1b979-eb01-461b-929c-7a8f0b54885b"
+      }
     }
   }
 }
