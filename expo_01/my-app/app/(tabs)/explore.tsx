@@ -63,7 +63,7 @@ export default function TabTwoScreen() {
   const fetchPlaceDetails = async (placeId) => {
     try {
       const response = await fetch(
-        `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&key='AIzaSyCEU5A00pSATg_YSfNCLDeoxFx85eIOg5o'`
+        `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&key=SUA_CHAVE_DA_API_GOOGLE_MAPS`
       );
       const data = await response.json();
       if (data.result) {
